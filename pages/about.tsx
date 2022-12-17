@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Layout from "../components/layout";
-import { useFetchPosts } from "./blog/controllers/use-fetch-posts";
+import { useFetchPosts } from "../controllers/use-fetch-posts";
 
 export default function About() {
   const [{ data, isLoading }] = useFetchPosts();

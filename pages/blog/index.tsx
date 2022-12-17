@@ -34,7 +34,7 @@ export default function Blog() {
       image: `https://loremflickr.com/320/24${index}`,
     };
   });
-  console.log("posts", posts);
+
   return (
     <>
       <Head>
